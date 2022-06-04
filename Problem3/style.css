@@ -1,0 +1,37 @@
+.container{
+  background-color:white;
+  
+  height:600px;
+  width:800px;
+  margin: 0 auto;
+  align:center;
+  display:grid;
+  grid-template-columns:50% auto;
+  column-gap:12px;
+  
+}
+body{
+   background:grey;
+  margin:30px 30px;
+}
+h2{
+  text-align:center;
+}
+h4{
+   color:grey;
+   /*text-shadow:2px 2px 5px grey;*/
+}
+ins{
+  color: green;
+  text-decoration:none;
+}
+  del {
+    color:grey;
+    font-size:14px;
+
+  }
+
+input[type=submit]{
+  color: white;
+  background-color:blue;
+}
