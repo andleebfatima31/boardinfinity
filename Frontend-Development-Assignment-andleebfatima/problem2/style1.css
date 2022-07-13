@@ -1,0 +1,16 @@
+.first {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  margin-left:75px;
+  margin-right:30px;
+  margin-top:100px;
+}
+.col-md-6{
+  flex:0 0 50%;
+  max-width:50%;
+}
+.second>img{
+  width:400px;
+}
